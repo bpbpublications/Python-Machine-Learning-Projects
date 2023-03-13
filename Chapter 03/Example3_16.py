@@ -1,0 +1,5 @@
+x= 100 + 10*np.random.randn(10000)
+plt.hist(x,50, color='g', cumulative=True)
+plt.xlabel("People")
+plt.ylabel("Frequency")
+plt.show()
